@@ -1,2 +1,3 @@
 # pythonclass-exercises
-Small projects and exercises for Python class
+Small projects and exercises for my Python class.
+
