@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666667 8.466667"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="fav.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="29.362136"
+     inkscape:cy="-15.509552"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1538"
+     inkscape:window-height="877"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-288.53332)">
+    <g
+       id="g2048"
+       transform="translate(0.33072917,0.14174107)">
+      <text
+         id="text817-4"
+         y="296.09451"
+         x="3.8262415"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.14768195px;line-height:1.25;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07869205"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;stroke-width:0.07869205"
+           y="296.09451"
+           x="4.105967"
+           id="tspan815-2"
+           sodipodi:role="line">Bank </tspan></text>
+      <g
+         transform="matrix(0.21992648,0,0,0.21992648,-25.651188,285.65144)"
+         id="text817-4-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.31269073px;line-height:1.25;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.73281729"
+         aria-label="KC">
+        <path
+           inkscape:connector-curvature="0"
+           id="path891"
+           d="m 139.92531,15.899288 c -3.47324,0 -5.21001,1.330849 -5.21001,3.993036 v 13.21108 c 0,2.46181 1.73677,3.6928 5.21001,3.6928 1.20228,0 2.28024,-0.291277 3.23443,-0.873334 0.95419,-0.591595 1.43144,-1.37387 1.43144,-2.347143 v -5.210018 h -4.10776 v 5.066876 c 0,0.333965 -0.20517,0.500743 -0.61547,0.500743 -0.42938,0 -0.64389,-0.166778 -0.64389,-0.500743 v -14.24151 c 0,-0.333965 0.21451,-0.500742 0.64389,-0.500745 0.4103,0 0.61547,0.16678 0.61547,0.500745 v 4.064868 h 4.10776 v -3.721219 c 0,-2.423642 -1.55521,-3.635436 -4.66587,-3.635436 z m -17.0465,0.186034 v 20.524329 h 4.50825 v -7.614007 l 1.73219,7.614007 h 4.95216 l -3.30626,-11.163659 2.77657,-9.36067 h -4.17959 l -1.97507,6.841442 v -6.841442 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;fill:#800000;stroke-width:0.73281729" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="104.23512"
+       y="46.835724"
+       id="text910"><tspan
+         sodipodi:role="line"
+         id="tspan908"
+         x="104.23512"
+         y="56.491219"
+         style="stroke-width:0.26458332" /></text>
+  </g>
+</svg>
