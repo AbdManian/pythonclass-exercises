@@ -1,0 +1,41 @@
+# Sample Data 1. Created by Folani!
+
+
+Bahman
+Sholevar
+1319/11/17
+Tehran
+46
+Farzaneh
+   Aghaeipour
+1327
+Khash
+26482
+    Gholam Hossein
+Saedi
+  1314/10/24
+Tabriz
+1235
+Sir Muhammad
+Iqbal
+  1256/8/18
+Lahoor
+120068
+   Mana
+Aghaee
+1352
+Bushehr
+125669
+Sadriddin
+Ayni
+1257/1/26		
+Bokhara
+45872
+ Nima
+   Yushij
+1276/8/21
+ Yush
+122335
+
+
+  # ############# End of dataset! #############
