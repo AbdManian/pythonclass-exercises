@@ -49,7 +49,13 @@ def traffic_generator():
             yield "."
             time_to_next_send_ms -= wait_time_ms
         
-        yield single_sample_generator(msg_id=msg_id)
+
+        msg = single_sample_generator(msg_id=msg_id)
+
+        for c in msg:
+            time.sleep(random.randint(0,50)/1000)
+            yield c
+
         msg_id +=1
 
 def start_server(host, port):
@@ -65,8 +71,7 @@ def start_server(host, port):
                 for message in traffic_generator():
                     b_message = message.encode()
                     conn.sendall(b_message)
-                    if message != '.':
-                        print("Sending: " + message)
+
 
 
 
