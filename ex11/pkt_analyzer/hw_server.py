@@ -80,10 +80,19 @@ def start_app():
     while True:
         try:
             start_server(HOST, PORT)
-        except BrokenPipeError:
+        except (BrokenPipeError, ConnectionAbortedError):
             print("Connection is closed by client. Try to restart....")
         except KeyboardInterrupt:
             print("\nHW server closed by user....")
             break
+
+
+import signal
+import sys
+def signal_handler(signal, frame):
+    # close the socket here
+    sys.exit()  
+signal.signal(signal.SIGINT, signal_handler)
+
 
 start_app()
