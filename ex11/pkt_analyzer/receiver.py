@@ -2,40 +2,8 @@ import socket
 HOST = 'localhost'
 PORT = 34567
 
-
-
-def frame_decoder(receiver):
-
-    while True:
-        start_seen = False
-        
-
-        # Search for start of the frame
-        while not start_seen:
-            data = receiver(1)
-            if data == '':
-                yield [] #Socket is empty. Yield back cpu to the caller
-            elif data == '<':
-                # Start of frame detected. Continue
-                start_seen = True
-        
-        # Wait for frame body and end of frame
-        frame_body = ''
-        stop_seen = False
-
-        while not stop_seen:
-            data = receiver(1)
-            if data == '':
-                yield []
-            elif data == '>':
-                # Frame is finish
-                stop_seen = True
-            else:
-                frame_body += data
-        
-        # Frame is completed here
-        yield frame_body.split(',')
-
+# Display content of the received frames in form of :
+#   ['PARAM1=Value', 'PARAM2=Value', .....]
 
 
 def create_client_receiver(host, port):
@@ -59,11 +27,12 @@ def create_client_receiver(host, port):
     
     return _receiver
 
-
+def _show_received_data(receiver):
+    while True:
+        rcv_data = receiver(num_bytes=1)
+        if rcv_data:
+            print(rcv_data, end='', sep='', flush=True)
 
 receiver = create_client_receiver(HOST, PORT)
 
-
-for frame in frame_decoder(receiver):
-    if frame:
-        print(frame)
+_show_received_data(receiver)
